@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "EB Garamond", serif;
+}
+
+body {
+  overflow-x: hidden;
+  background-color: #d5e1df;
+}
+
+.header {
+  margin-top: 2em;
+  text-align: center;
+}
+.header p {
+  text-decoration: none;
+  font-size: 1.5em;
+  font-weight: 900;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 900;
+  margin-top: 2em;
+  font-size: 1.4em;
+}
+.content form {
+  padding: 10px;
+  background-color: #fff;
+  width: 40%;
+  font-size: 0.7em;
+  border-radius: 10px;
+  box-shadow: 0 0 10px silver;
+  position: relative;
+}
+.content form p {
+  margin: 10px 0 5px 0;
+}
+.content form input {
+  width: 100%;
+  padding: 8px 0;
+  border: none;
+  border-radius: 10px;
+  background-color: #e3eaa7;
+}
+.content form .radio {
+  width: 10px;
+}
+.content form button {
+  width: 100%;
+  padding: 8px;
+  margin-top: 1em;
+  border: none;
+  border-radius: 10px;
+  background-color: #86af49;
+  font-weight: 600;
+  transition: 200ms ease-in-out;
+}
+.content form button a {
+  color: black;
+  text-decoration: none;
+}
+.content form button a:hover {
+  color: #d5e1df;
+  background-color: #86af49;
+}
+.content form button:hover {
+  background-color: #86af49;
+  color: #d5e1df;
+}
+
+/*# sourceMappingURL=StyleInput-Edit.css.map */
